@@ -1,0 +1,120 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3587,        112]
+NotebookOptionsPosition[      2881,         92]
+NotebookOutlinePosition[      3321,        109]
+CellTagsIndexPosition[      3278,        106]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"f", "[", "x_", "]"}], " ", "=", " ", 
+  RowBox[{"sin", 
+   RowBox[{"(", "x", ")"}], " ", 
+   RowBox[{"e", "^", 
+    RowBox[{"(", 
+     RowBox[{"-", "x"}], ")"}]}]}]}], "\[IndentingNewLine]", 
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{"sin", 
+    RowBox[{"(", "x", ")"}], " ", 
+    RowBox[{"e", "^", 
+     RowBox[{"(", 
+      RowBox[{"-", "x"}], ")"}]}]}], ",", "x"}], "]"}], "\[IndentingNewLine]", 
+ RowBox[{"D", "[", 
+  RowBox[{
+   RowBox[{"sin", 
+    RowBox[{"(", "x", ")"}], " ", 
+    RowBox[{"e", "^", 
+     RowBox[{"(", 
+      RowBox[{"-", "x"}], ")"}]}]}], ",", " ", "x"}], 
+  "]"}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.910953218494581*^9, 3.9109532343919992`*^9}, {
+  3.9109533878238153`*^9, 3.910953405999894*^9}, {3.910953441813294*^9, 
+  3.910953473094288*^9}, {3.910953509140111*^9, 3.9109535583459787`*^9}, {
+  3.910953599479195*^9, 3.9109536030761538`*^9}},
+ CellLabel->"In[26]:=",ExpressionUUID->"c382277f-ef50-4fad-b44f-329d14c8d950"],
+
+Cell[BoxData[
+ RowBox[{
+  SuperscriptBox["e", 
+   RowBox[{"-", "x"}]], " ", "sin", " ", "x"}]], "Output",
+ CellChangeTimes->{
+  3.910953476190807*^9, 3.9109535610884247`*^9, {3.910953604528327*^9, 
+   3.910953607000826*^9}},
+ CellLabel->"Out[26]=",ExpressionUUID->"f980f608-7dc6-4c5a-afbe-119eb08324f1"],
+
+Cell[BoxData[
+ RowBox[{"-", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["e", 
+     RowBox[{"-", "x"}]], " ", "sin", " ", 
+    RowBox[{"(", 
+     RowBox[{"1", "+", 
+      RowBox[{"x", " ", 
+       RowBox[{"Log", "[", "e", "]"}]}]}], ")"}]}], 
+   SuperscriptBox[
+    RowBox[{"Log", "[", "e", "]"}], "2"]]}]], "Output",
+ CellChangeTimes->{
+  3.910953476190807*^9, 3.9109535610884247`*^9, {3.910953604528327*^9, 
+   3.9109536070047245`*^9}},
+ CellLabel->"Out[27]=",ExpressionUUID->"e16c6a84-6ba7-4da2-8c32-06bbb97492b5"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   SuperscriptBox["e", 
+    RowBox[{"-", "x"}]], " ", "sin"}], "-", 
+  RowBox[{
+   SuperscriptBox["e", 
+    RowBox[{"-", "x"}]], " ", "sin", " ", "x", " ", 
+   RowBox[{"Log", "[", "e", "]"}]}]}]], "Output",
+ CellChangeTimes->{
+  3.910953476190807*^9, 3.9109535610884247`*^9, {3.910953604528327*^9, 
+   3.9109536070047245`*^9}},
+ CellLabel->"Out[28]=",ExpressionUUID->"00e3c5a2-b888-425f-93c8-36491dacce38"]
+}, Open  ]]
+},
+WindowSize->{571.8, 509.4},
+WindowMargins->{{
+  Automatic, 100.79999999999995`}, {-1.7999999999999545`, Automatic}},
+FrontEndVersion->"13.3 for Microsoft Windows (64-bit) (July 24, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"9a92b552-53ce-419b-8461-571f5ac5a259"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1013, 27, 86, "Input",ExpressionUUID->"c382277f-ef50-4fad-b44f-329d14c8d950"],
+Cell[1596, 51, 303, 7, 32, "Output",ExpressionUUID->"f980f608-7dc6-4c5a-afbe-119eb08324f1"],
+Cell[1902, 60, 519, 15, 52, "Output",ExpressionUUID->"e16c6a84-6ba7-4da2-8c32-06bbb97492b5"],
+Cell[2424, 77, 441, 12, 32, "Output",ExpressionUUID->"00e3c5a2-b888-425f-93c8-36491dacce38"]
+}, Open  ]]
+}
+]
+*)
+

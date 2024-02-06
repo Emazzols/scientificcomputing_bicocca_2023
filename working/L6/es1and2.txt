@@ -1,0 +1,6 @@
+Il seguente link rimanda ad una repository github in cui ci sono gli esercizi 1 e 2 della lezione 6.
+
+https://github.com/Emazzols/Python-course-exercises
+
+Al posto del codice a cui sto lavorando (che si tratta di una simulazione geant4 a cui lavorano anche altre persone e non credo di poterlo caricare in una repository pubblica) ho caricato il mio progetto di dottorato in pdf. 
+
